@@ -16,12 +16,13 @@ getCharacters(data => {
         const article = document.createRange().createContextualFragment(/*html*/`
         <article>
 
-            <div class="image-container">
+            <div class="card-img">
                     <img src="${personaje.image}" alt="Personaje">
+                     <h2>${personaje.name}</h2>
+                <span>${personaje.status}</span>
             </div>
             
-                <h2>${personaje.name}</h2>
-                <span>${personaje.status}</span>
+                
         
         </article>
             `);
@@ -30,3 +31,5 @@ getCharacters(data => {
         main.append(article);
     });
 });
+
+
