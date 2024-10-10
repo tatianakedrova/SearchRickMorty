@@ -1,4 +1,4 @@
-##Prueba Frontend Hackatò [Saló Ocupació] - Aplicación web Rick y Morty
+#Prueba Frontend Hackatò [Saló Ocupació] - Aplicación web Rick y Morty
 
 **El repte consiste en desarrollar una aplicación web con un listado de personajes de Rick y Morty. Esta aplicación es responsive y ha sido desarrollada con JavaScript, HTML5 y CSS3.**
 
