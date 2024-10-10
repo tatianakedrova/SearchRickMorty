@@ -14,6 +14,8 @@ getCharacters(data => {
     data.results.forEach(personaje => {
 
         const article = document.createRange().createContextualFragment(/*html*/`
+   
+
         <article>
 
             <div class="card-img">

@@ -8,7 +8,6 @@
 main {
     width: 100vw;
     height: 100vh; 
-    padding-top: 25px;
     overflow: scroll;
     position: relative;
     display: flex; 
@@ -37,14 +36,20 @@ h1{
 }
 
 header {
+    display: flex;
+    min-height: 70px;
     width: 100vw;
     background-color: #e28743;
-    padding: 10px 50px;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
+}
+
+.logo{
+    width: 300px;
+    height: 120px;
 }
 
 h2{
